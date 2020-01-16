@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    display: block;
+}
+
+.container {
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.block {
+    max-width: 815px;
+    height: 400px;
+    width: 75%;
+    background-color: rgba(0,0,0,.5);
+    margin: auto;
+    border-radius: 5px;
+    padding: 0px 15px 0px 15px;
+}
+
+.logo {
+    min-width: 161px;
+    max-width: 161px;
+    margin: 25px;
+    width: 50%;
+}
